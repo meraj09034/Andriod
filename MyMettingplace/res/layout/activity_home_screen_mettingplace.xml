@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    
+    android:background="@drawable/insert"
+     >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:text="@string/txt_homescreen"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+   <Button
+       android:id="@+id/btnRegister"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:layout_marginTop="120dp"
+       android:background="@drawable/button_custom"
+       android:padding="14dp"
+       android:text="@string/register"
+       android:textColor="#FFFFFF"
+       android:typeface="monospace" />
+
+   <Button
+       android:id="@+id/btnRetrieve"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:layout_marginTop="20dp"
+       android:background="@drawable/button_custom"
+       android:padding="14dp"
+       android:text="@string/retrieve"
+       android:textColor="#FFFFFF"
+       android:typeface="monospace" />
+
+</LinearLayout>

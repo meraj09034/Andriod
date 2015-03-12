@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/insert"
+  >
+
+    
+ 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+      
+        android:orientation="vertical"
+         >
+         <TextView
+            android:id="@+id/db_check_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="26sp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:background="@drawable/button_custom"
+                android:gravity="center"
+                android:text="@string/insert_header"
+                android:textColor="#ffffff"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp" >
+
+                <TextView
+                    android:id="@+id/txaddName"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.5"
+                    android:paddingLeft="15dp"
+                    android:text="@string/name"
+                    android:textColor="#000000"
+                    android:textSize="17sp" 
+                    android:gravity="center_vertical"/>
+
+                <EditText
+                    android:id="@+id/addName"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                   android:hint="@string/enter_name"
+                    android:inputType="text"
+                    android:paddingLeft="15dp"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/addrss_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.5"
+                    android:paddingLeft="15dp"
+                    android:text="@string/address"
+                  android:textColor="#000000"
+                    android:textSize="17sp" 
+                    android:gravity="center_vertical"/>
+
+                <EditText
+                    android:id="@+id/addAddress"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:inputType="text"
+                    android:paddingLeft="15dp"
+                    android:hint="@string/enter_address"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="italic" 
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/latitude_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.5"
+                    android:paddingLeft="15dp"
+                    android:text="@string/latitude"
+                    android:textColor="#000000"
+                    android:textSize="17sp" 
+                    android:gravity="center_vertical" />
+
+                <EditText
+                    android:id="@+id/addLatitude"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:inputType="text"
+                    android:paddingLeft="15dp"
+                    android:textColor="#000000"
+                    android:hint="@string/enter_latitude"
+                    android:textSize="15sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/longitude_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.5"
+                    android:paddingLeft="15dp"
+                    android:text="@string/longitude"
+                   android:textColor="#000000"
+                    android:textSize="17sp" 
+                    android:gravity="center_vertical" />
+
+                <EditText
+                    android:id="@+id/addLongitude"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:inputType="text"
+                    android:paddingLeft="15dp"
+                    android:textColor="#000000"
+                     android:hint="@string/enter_longitude"
+                    android:textSize="15sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            
+<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.5"
+                    android:paddingLeft="15dp"
+                    android:text="@string/description" 
+                   android:textColor="#000000"
+                    android:textSize="17sp" 
+                    android:gravity="center_vertical" />
+
+                <EditText
+                    android:id="@+id/addServiceDescription"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:inputType="text"
+                    android:paddingLeft="15dp"
+                    android:textColor="#000000"
+                      android:hint="@string/enter_description"
+                    android:textSize="15sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_custom"
+            android:onClick="insertButtonClicked"
+            android:text="@string/btnSave"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</ScrollView>
+ 

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyMettingplace</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="name">Location Name</string>
+    <string name="address">Location Address</string>
+    <string name="latitude">Latitude</string>
+    <string name="longtitude">Longitude</string>
+    <string name="description">Place Description</string>
+    <string name="Insert">Save</string>
+    <string name="hospitalName">Location Name</string>
+    <string name="hospitallAddress">Location Address</string>
+    <string name="hosdescription">Description</string>
+    <string name="top">Location Lists</string>
+    <string name="takaaphoto">Take A Photo</string>
+    <string name="Captureaphoto">Capture A Photo</string>
+    <string name="logitude">Location Longitude</string>
+    <string name="LogitudeI">Longitude</string>
+    <string name="name1">Name</string>
+    <string name="name2">Name</string>
+    <string name="address1">Addres</string>
+    <string name="image">Image</string>
+    <string name="des">Details</string>
+    <string name="destas">Details</string>
+    <string name="title_activity_home_screen">HomeScreenActivity</string>
+    <string name="register">Register</string>
+    <string name="retrieve">Retrieve</string>
+    <string name="descriptions">Description</string>
+    <string name="desc">Description</string>
+    <string name="distan">Distance</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="topest">Visited Places</string>
+    <string name="yourCurrentLocation">My Current Location</string>
+    <string name="latituded">Lat</string>
+    <string name="lon">Lon</string>
+    <string name="lat">Lat:</string>
+    
+    <string name="ln">LNG:</string>
+    
+    <string name="longi">LNG</string>
+    <string name="txt_homescreen">My Metting Places</string>
+    <string name="txt_pageinfoscreen">Place Info</string>
+    <string name="txt_btn_home">Home</string>
+
+</resources>
