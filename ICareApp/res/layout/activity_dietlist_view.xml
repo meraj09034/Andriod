@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/viewimage1"
+        android:padding="15dp" >
+
+        <LinearLayout
+            android:id="@+id/layoutOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/viewEvent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:textColor="#000000"
+                android:textStyle="normal"
+                android:textSize="20sp"
+                android:layout_marginRight="10dp"
+                android:text="@string/food" />
+
+            <TextView
+                android:id="@+id/viewTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                android:textStyle="normal"
+                android:textSize="20sp"
+                android:layout_marginRight="10dp"
+                android:text="@string/time" />
+
+            <ImageView
+                android:id="@+id/imageAlarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                
+                android:contentDescription="@string/image"
+                android:src="@drawable/alarm1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/viewManu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textStyle="normal"
+                android:textSize="20sp"
+                android:text="@string/manu" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

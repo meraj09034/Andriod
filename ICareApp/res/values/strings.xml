@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ICare</string>
+    <string name="tv_wellcome_splash">WellCome To ICare Application</string>
+    <string name="action_settings">Settings</string>
+    <string name="tv_wellcome_user_profile">Create Profile</string>
+     <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="home_text">FTFL Navigation Drawer</string>
+	    
+	   
+        
+    <string name="textWeight">Weight</string>
+    <string name="textName">Name</string>
+    <string name="phone">Phone</string>
+    <string name="textHeight">Height</string>
+    <string name="hintName">enter name</string>
+    <string name="buttonSubmit">SAVE</string>
+    <string name="hintHeight">enter height(cm)</string>
+    
+    <string name="textCreateProfileHeader"> Create Profile</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="textGender">Gender</string>
+    <string name="radioButtonMale">Male</string>
+    <string name="radioButtonFemale">Female</string>
+    <string name="textAge">Age</string>
+    <string name="hintWeight">enter weight(kg)</string>
+    <string name="hintAge">enter age</string>
+    <string name="textBloodGroup">Blood Group</string>
+    <string name="hintBloodGroup">enter blood group</string>
+    
+    <string-array name="Sex_Select">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+   
+    
+    <string name="Name">Name</string>
+    <string name="age">Age</string>
+    <string name="Date_Of_Birth">Birth Date</string>
+    <string name="Height">Height</string>
+    <string name="Weight">Weight</string>
+    <string name="Save">Save</string>
+    <string name="createDietChart">Create Diet Chart</string>
+    <string name="createImportantNotes">Create Important Notes</string>
+    <string name="alarm">Set Alarm</string>
+    <string name="dateOfDiet">Date Of Diet</string>
+    <string name="timeOfDiet">Time Of Diet</string>
+    <string name="myfeastName">Feast name</string>
+    <string name="myfeastManu">Feast manu</string>
+    <string name="Special_comment">Special Comment</string>
+    <string name="Create_Profile">Create Profile</string>
+    <string name="My_Profile">My Profile</string>
+    <string name="myProfile">My Diet Profile</string>
+    <string name="Update">Update</string>
+    <string name="time">Time</string>
+    <string name="manu">Feast manu</string>
+    <string name="food">Event Name</string>
+    <string name="title_activity_icare_profile_preview">ICareProfilePreviewActivity</string>
+    <string name="title_activity_icare_profile_preview_acitvity">ICareProfilePreviewAcitvity</string>
+    <string name="title_activity_icare_create_diet_chart">ICareCreateDietChartActivity</string>
+    <string name="title_activity_icare_diet_list">ICareDietListActivity</string>
+    <string name="title_activity_icare_daily_diet_chart_view">ICareDailyDietChartViewActivity</string>
+    <string name="title_activity_icare_diet_history">ICareDietHistoryActivity</string>
+    <string name="radioAll">All</string>
+    <string name="myDietChartHistory">My Diet Chart History</string>
+    <string name="createDiet">Create Diet</string>
+	<string name="Friday">16/01/2015 Friday</string>
+	<string name="image">Loading!!!</string>
+	<string name="radioWeek">Week</string>
+	<string name="radioMonth">Month</string>
+	<string name="pickDiet">Pick Diet Date</string>
+	
+	<string name="history">History</string>
+	<string name="todayDiet">Diet Chart of The Day</string>
+	<string name="upComingDiet">Upcoming Diet Chart</string>
+	
+	<string name="show_Doctor_header">Show Detail Doctor Profile</string>
+	<string name="headerDoctorProfile">Doctor Profile</string>
+    <string name="tvDoctorName">Name</string>
+    <string name="etDoctorName">enter doctor name</string>
+    <string name="tvSpeciality">Speciality</string>
+    <string name="etSpeciality">enter speciality</string>
+    <string name="tvPhone">Phone</string>
+    <string name="phoneEditText">enter phone number</string>
+    <string name="emailTextView">Email</string>
+    <string name="emailEditText">enter email</string>
+    <string name="chamberTextView">Chamber</string>
+    <string name="chamberEditText">enter chamber location</string>
+    
+    <string name="tv__userprofile_listview_heder">Profile List</string>
+    <string name="tv__userprofile_listview_about">Profile</string>
+    <string name="tv_userprofile_view_header">Profile Information</string>
+    <string name="tv__userprofile_listview_health">Health Information</string>
+    <string name="tv__userprofile_listview_medical">Medical History</string>
+    <string name="tv__userprofile_listview_carecenter">Care Center</string>
+    <string name="tv__userprofile_listview_Gallery">Notes</string>
+    
+    <string name="tv_vaccination_heder">Create Vaccination</string>
+    <string name="hint_vaccination_name">Enter Vaccination Name</string>
+    <string name="hint_vaccination_description">Enter Vaccination Description</string>
+    <string name="hint_vaccination_date">Enter Vaccination Date</string>
+    <string name="hint_vaccination_time">Enter Vaccination Time</string>
+    <string name="tvvactination_listview_heder">Vaccination List</string>
+    
+    <string name="Allvaccine">All Vaccination</string>
+	<string name="remainingVaccine">Remaining Vaccination</string>
+    <string name="tv_show_vaccination_header">Show Vaccination Information</string>
+    <string name="tv_show_vaccination_name">Name</string>
+    <string name="tv_show_vaccination_description">Description</string>
+    <string name="tv_show_vaccination_alarm">Alarm</string>
+    <string name="tv_show_vaccination_date">Date</string>
+    <string name="tv_show_vaccination_time">Time</string>
+    
+    <string name="medicalhistoryTextView">Medical History</string>
+    <string name="takePresciptionPhoto">Capture Prescription</string>
+    <string name="dateTextView">Date</string>
+    <string name="capturedImage">capture image</string>
+    <string name="doctorTextView">Doctor Name</string>
+    <string name="doctorEditText">enter doctor name</string>
+    <string name="purposeTextView">Purpose</string>
+    <string name="purposeEditText">enter purpose</string>
+    <string name="dateEditText">"Select date"</string>
+    
+    <string name="tv_medical_history_listview_heder">Medical History List</string>
+    <string name="tv_Doctor_listview_heder">Doctor List</string>
+    <string name="tv_medical_detail_heder">Show Medical History</string>
+    <string name="tv_medical_detail_image">Presciption</string>
+    <string name="tv_medical_detail_date">Date</string>
+    <string name="tv_medical_detail_purpose">Purpose</string>
+    <string name="tv_medical_detail_name">Doctor Name</string>
+    
+    <string name="tv_care_center_listview_heder">Care Center List</string>
+    <string name="tv_create_carecenter_heder">Create Care Center</string>
+    <string name="tvcarecentername">Name</string>
+    <string name="tvcarecenterlatitude">Latitude</string>
+    <string name="tvcarecenterlongitude">Longitude</string>
+    <string name="hint_carecenter_name">Enter Name</string>
+    <string name="hint_carecenter_latitude">Enter latitude</string>
+    <string name="hint_carecenter_longitude">Enter Longitude</string>
+    
+    <string name="tv_generalHealth_heder">Health Information</string>
+    <string name="txt_GeneralHealthInfo">General Health Info</string>
+    <string name="txt_GeneralHealthVactinationInfo">Vactination Info</string>
+    <string name="txt_GeneralHealthGrowthInfo">Growth Info</string>
+    <string name="txt_GeneralHealthDietInfo">Diet Info</string>
+    
+    <string name="call">Shake to call</string>
+    <string name="tv__userprofile_listview_EmergencyCall">Emergency Call</string>
+    <string name="Emergencyphone">Phone Number</string>
+    
+    <string name="tv__Notes_listview_heder">Important Notes List</string>
+    <string name="tv__ShowDetai_heder">Show Important Notes</string>
+     <string name="tv__ShowDetai_Titel">Important Notes titel</string>
+     <string name="tv__ShowDetai_Date">Date</string>
+     <string name="tv__ShowDetai_description">Description</string>
+     <string name="myNotesName">Notes Titel</string>
+      <string name="myNotesDate">Notes Date</string>
+       <string name="myNotesDes">Notes Description</string>
+    <string name="tv_vaccineInfo_titel">Vaccine Names and Abbreviations</string>
+    
+		<string name="tv_vaccineInfo">
+		1.Polio(oliovirus vaccine)
+         2.DTP(Diphtheria, Tetanus, Pertussis)
+          3.DTaP/Tdap(Diphtheria, Tetanus, acellular Pertussis)
+          4.DTP-Hib(Diphtheria, Tetanus, Pertussis and Haemophilusinfluenzae type b)
+          5.DTaP-Hib(Diphtheria, Tetanus, acellular Pertussis and Haemophilusinfluenzae type b)
+           6.Hib(Haemophilusinfluenzae type b)
+           7.DTaP/DTP Combinations()
+          8.Hepatitis B,Hepatitis B-Hib,Hepatitis A,HPV(Human Papillomavirus)
+          9.MCV4(Meningococcal Conjugate Vaccine (quadravalent))
+           10.MPSV4(Meningococcal Polysaccharide Vaccine (quadravalent
+          11.PCV7(Pneumococcal Conjugate Vaccine (7-valent)</string>
+           <string name="tv_GeneralInfo_titel">General health information</string>
+           <string name="tv_NutationInfo_titel">Nutation information</string>
+    		<string name="tv_DietInfo_titel">Diet information</string>
+		<string name="tv_GeneralInfo">
+		    1.	Back Pain
+			2.	COPD
+			3.	Depression
+			4.	Diabetes
+			5.	Exercise and Physical Fitness
+			6.	Heart Diseases
+			7.	High Blood Pressure
+			8.	Pregnancy
+			9.	Skin Conditions
+			10.	Weight Control</string>
+			
+		<string name="tv_DietfregmentInfo">
+			1. Eat With other whenever prossible
+			2. Try mixing grains as a first step to switching to whole grains
+		    3. Listen to your body
+		    4. Take time to chew your food and enjoy mealtimes
+		    5. Make sure you re really getting whole grains
+		    6. Include a variety of whole grains in your healthy diet
+		    7. Avoid eating at night
+		    8. Eat breakfas and eat smaller meals throughout the day
+			</string>
+			
+		<string name="tv_NutaionfregmentInfo">
+			Nutrition Facts for Raw Fruits
+
+			1.Fruits - small PDF (463kb) (8.5 x 11 inches)
+
+			2.Fruits - medium PDF (481kb) (10.75 x 14 inches)
+
+			3.Fruits - large PDF (510kb) (18.75 x 24.25 inches)
+
+			4.Fruits - x-large PDF (564kb) (29.75 x 38.5 inches)
+
+			5.Fruits - text version or accessible version
+			</string>
+			
+		 <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Home</item>
+        <item >General Health Information</item>
+        <item >Nutation Information</item>
+        <item >Vaccination Information</item>
+        <item >Diet Information</item>
+       
+    </string-array>
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_health</item>
+        <item>@drawable/ic_nutation</item>
+        <item>@drawable/ic_vaccineimg</item>
+        <item>@drawable/ic_dierimg</item>
+       
+    </array>
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+</resources>

@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ftfl.icare.IcareHomeActivity" >
+
+    <TextView
+        android:id="@+id/addDietChart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/createDietChart"
+        android:textColor="#78C54F"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/editDailyDietChartFeast"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="30dp"
+                android:background="#ffffff"
+                android:ems="10"
+                android:hint="@string/myfeastName"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textColor="#000000" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/editDailyDietChartManu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="#ffffff"
+                android:ems="10"
+                android:hint="@string/myfeastManu"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textColor="#000000" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/editDailyDietChartDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="#ffffff"
+                android:calendarViewShown="true"
+                android:focusable="true"
+                android:hint="Enter date Of diet"
+                android:inputType="none"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/editDailyDietChartTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="#ffffff"
+                android:hint="Enter Time Of diet"
+                android:inputType="text"
+                android:padding="10dp" />
+
+            <CheckBox
+                android:id="@+id/diet_alarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/alarm"
+                android:textColor="#000000" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnDietSave"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="30dp"
+        android:background="#607D8B"
+        android:text="@string/buttonSubmit"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+</LinearLayout>

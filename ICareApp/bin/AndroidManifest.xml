@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ftfl.icareapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!--
+     The following two permissions are not required to use
+     Google Maps Android API v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashScreenActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CreateProfileActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".ProfileListHomeActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".DiseViewHomeActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ProfileViewActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".CreateDoctorActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".DoctorListViewActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ICareCreateDietChartActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".ICareDietListActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".DoctorShowDetailActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ICareDietHistoryActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ICareDailyDietChartViewActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".GeneralHealthInfoFregment"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".MedicalHistoryListViewActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".CreateVaccinationProfileActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".CallEmergencyNumberActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".OnShakeActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".VaccinationListActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".HomeScreenActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".VaccinationShowProfileActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ProfileListActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".MedicalDetailViewActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".CareCenterListActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".CreateMedicalHistoryActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".ImportantNotesListViewActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".importantNotesDetailShowActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".CareCenterGoogleMapActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".CreateImportentNotesActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyDU1A4O9QaMHmm_I6rZPAMU-B7Lyw6K25o" />
+    </application>
+
+</manifest>
